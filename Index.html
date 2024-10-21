@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>JS Example | POP-UP</h1>
+
+    <script>
+      //   alert("Hello World..!");
+
+      //   var text = confirm("Please Click..!");
+      //   if (text == true) {
+      //     alert("Click on OK..!");
+      //   } else {
+      //     alert("Click on Cancle..!,, Recodr not deleted..!");
+      //   }
+
+      //   var value = prompt("Please Enter a No");
+      //   if (value) {
+      //     alert("You Enter " + value);
+      //   } else {
+      //     alert("No input..!");
+      //   }
+
+      var no1 = prompt("Please Enter a no");
+      if (no1) {
+        var no2 = prompt("Please Enter another no");
+        if (no1 && no2) {
+          no1 = parseInt(no1);
+          no2 = parseInt(no2);
+          alert(no1 + no2);
+        }
+      } else {
+        alert("User Just Cancle the processing..!");
+      }
+    </script>
+  </body>
+</html>
