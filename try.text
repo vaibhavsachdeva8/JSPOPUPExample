@@ -1,0 +1,28 @@
+Basic Webpage
+tags....!
+forms..!
+
+
+DOM => Access
+
+1. document.getElementById();
+2. document.getElementByClassName();
+3. document.getElementByTagName();
+
+---------------------
+Property based..! functionality
+
+1. innerHTML
+2. innerText
+3. value => Form..!
+
+-------------------------------
+
+Event / Event Listnears 
+1. Mouse Event
+    {Single Click, Double Click, Scroll}
+2. KeyBoard Event
+    {KeyPress , Up , Down}
+3. Hover Event
+    {mouseenter , mouseleave} 
+    onBlur, onFocus

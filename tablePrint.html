@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Print Table in JS | onclick Event</h1>
+    <p>
+      <input type="text" id="no" />
+    </p>
+
+    <p>
+      <button onclick="print_table()">Print Table</button>
+    </p>
+    <div id="table"></div>
+    <script>
+      function print_table() {
+        var no = parseInt(document.getElementById("no").value);
+
+        for (var i = 1; i <= 10; i++) {
+          var container = document.getElementById("table");
+          container.innerHTML = container.innerHTML + (i * no + "<br>"); // concate..!
+        }
+      }
+    </script>
+  </body>
+</html>
